@@ -1,0 +1,15 @@
+ProxyCommand connect -H web-proxy.oa.com:8080 %h %p
+
+Host github.com
+User git
+Port 22
+Hostname github.com
+TCPKeepAlive yes
+IdentitiesOnly yes
+
+Host ssh.github.com
+User git
+Port 443
+Hostname ssh.github.com
+TCPKeepAlive yes
+IdentitiesOnly yes
