@@ -75,6 +75,9 @@ ARCHIVE is the string name of the package archive.")
 ;; Feel free to add more packages!
 (defvar melpa-include-packages
   '(bbdb
+    org-page
+    dash
+    simple-httpd
     kv
     color-theme
     wgrep

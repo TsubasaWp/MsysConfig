@@ -5,3 +5,6 @@
 #	email = tsubasa.wp@gmail.com
 [push]
 	default = simple
+[user]
+	email = tsubasa.wp@gmail.com
+	name = TsubasaWp

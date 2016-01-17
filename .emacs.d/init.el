@@ -83,6 +83,7 @@ We increase this to 16MB by `(my-optimize-gc 16 0.5)` "
 (require 'init-javascript)
 (require 'init-org)
 (require 'init-org-mime)
+(require 'init-org-page)
 (require 'init-css)
 (require 'init-python-mode)
 (require 'init-haskell)
@@ -146,6 +147,7 @@ We increase this to 16MB by `(my-optimize-gc 16 0.5)` "
    (message "Emacs startup time: %d seconds."
     (time-to-seconds (time-since emacs-load-start-time))))
 
+
 ;;----------------------------------------------------------------------------
 ;; Locales (setting them earlier in this file doesn't work in X)
 ;;----------------------------------------------------------------------------
@@ -174,4 +176,3 @@ We increase this to 16MB by `(my-optimize-gc 16 0.5)` "
 ;;; no-byte-compile: t
 ;;; End:
 (put 'erase-buffer 'disabled nil)
-
